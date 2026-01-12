@@ -1,0 +1,14 @@
+Lab 00
+
+Objetivo: pasar dinero de una cuenta a otra
+
+Abrimos terminal y ponemos el siguiente comando:
+gobuster -u http://fakebank.thm -w wordlist.txt dir
+
+(-u Especificamos con esto la url objetivo)
+
+(-w Toma una lista de palabras para iterar para encontrar páginas ocultas.)
+
+una vez ejecutado el programa nos indica que tenemos la posibilidad de integrar a la url lo siguiente: /bank-transfer
+
+permitiendonos mover plata de una cuenta a la otra, con ello pasamos 2000$ a la cuenta 8881 
